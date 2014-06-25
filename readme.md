@@ -12,7 +12,7 @@ LICENSE = MIT v. 3
 
 ## Usage
 
-'''
+```
 usage: generate-barcodes [-h] --length LENGTH --min-dist MIN_DIST --count
                          COUNT [--max-stretch MAX_STRETCH] [--input INPUT]
 
@@ -28,4 +28,4 @@ optional arguments:
                         max stretch of the same nucleotide
   --input INPUT, -i INPUT
                         (optional) list of already-designed barcodes to extend
-'''
+```
