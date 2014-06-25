@@ -95,5 +95,5 @@ bin/generate-barcodes \
   --max-stretch 1 \
   --count 100
 
-(This will succeed but the barcodes are really long!)
+# (This will succeed but the barcodes are really long!)
 ```
