@@ -59,7 +59,7 @@ stalled.
 
 ## Examples
 
-```
+```bash
 # Generate 5 barcodes of length 10 bp, with a minimum of 5 
 # distance (Hamming) from any other barcode and a maximum stretch
 # of 1 of the same nucleotide in a row.
