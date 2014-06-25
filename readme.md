@@ -35,7 +35,10 @@ optional arguments:
 This script takes a brute force approach to generating the barcode sequences.
 Random nucleotide sequences are generated and only those satisfying the
 constraints are kept until the number of "good" barcodes reaches that specified
-by `--count`.
+by `--count`. Because of this approach, it is possible that the script will
+stall. There is an "ascii spinner" animation that turns whenever a new barcode
+is found. If this doesn't happen for a while then the script has probably
+stalled.
 
 - `--length` - length of the barcode in nucleotides.
 
