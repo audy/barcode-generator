@@ -8,7 +8,6 @@ LICENSE = MIT v. 3
 ## Requirements
 
 - Python 2.7
-- BioPython 1.63
 
 ## Usage
 
