@@ -38,15 +38,19 @@ constraints are kept until the number of "good" barcodes reaches that specified
 by `--count`.
 
 - `--length` - length of the barcode in nucleotides.
+
 - `--count` - number of barcodes to attempt to generate.
+
 - `--min-dist` - the minimum edit distance (Hamming distance) between any two
   barcodes. This is used to create "error correcting" barcodes that are
   resistant to sequencing errors. Increasing this parameter makes it possible
   to generate more resilient barcodes but decreases the number of possible
   barcodes.
--- `--input` - an (optional) list of barcodes to extend. Constraints are not
+
+- `--input` - an (optional) list of barcodes to extend. Constraints are not
   checked for input barcodes.
--- `--max-stretch` - maximum number of the same nucleotide in a barcode. Useful
+
+- `--max-stretch` - maximum number of the same nucleotide in a barcode. Useful
   if the sequencing technology is sensitive to runs of the same nucleotide.
 
 
