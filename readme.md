@@ -2,9 +2,6 @@
 
 Generate barcode sequences for multiplexed sequencing given some constraints.
 
-(c) 2014 Austin G. Davis-Richardson
-LICENSE = MIT v. 3
-
 ## Requirements
 
 - Python 2.7
