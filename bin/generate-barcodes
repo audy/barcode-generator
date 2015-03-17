@@ -62,6 +62,10 @@ def generate_barcodes(barcodes, **kwargs):
 
         keep = True
 
+        if new_barcode in barcodes:
+            keep = False
+            break
+
         if kwargs.get('max_stretch', False):
             if max_stretch(new_barcode) >= kwargs['max_stretch']:
                 keep = False
@@ -79,6 +83,9 @@ def generate_barcodes(barcodes, **kwargs):
             barcodes.append(new_barcode)
 
     print >> sys.stderr, 'finished'
+
+    # make sure there are no duplicates!
+    assert len(set(barcodes)) == len(barcodes)
 
     return barcodes
 
